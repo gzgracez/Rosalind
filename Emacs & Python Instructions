@@ -1,0 +1,5 @@
+.emacs file for customization
+M-x-shell to open shell in emacs
+C-x
+from importlib import reload
+example to run program: usconst.main("filename.txt")

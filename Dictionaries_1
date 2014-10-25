@@ -1,0 +1,11 @@
+def dict():
+    with open ("data.txt", "r") as myfile:
+        data=myfile.read().split()
+    hist = {}
+    for word in range (0,len(data)):
+        hist[word] = wordlist.count(word)
+    print(hist);
+    #for i in range(0,len(data)):
+        #print(data[i]);
+        #if (i%2==1):
+            #print(data[i])

@@ -1,0 +1,6 @@
+def wwf():
+    with open ("data.txt", "r") as myfile:
+        data=myfile.readlines()
+    for i in range(0,len(data)):
+        if (i%2==1):
+            print(data[i]);

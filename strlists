@@ -1,0 +1,3 @@
+def strlists():
+    a="FTq1gupkWaV1tXAkjTYwk3DDvEkICOGHJEFtRInpm9DPx6oNowrKmuMBYuqgiQ9KSWco1tgPantheraVSBHp9T6tuIo7QOeksOXUT1fMB4EV63DIA4UNU1CnswxM5PakhlNR0mLud4HgriseussdW8doLgTeXB3wu0..."
+    print(a[71:79] + " " + a[139:146])

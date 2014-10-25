@@ -1,0 +1,20 @@
+def dict():
+    with open ("data.txt", "r") as myfile:
+        data=myfile.read().split()
+    set1=set(data)
+    list1=list(set1)
+    #print(list1)
+    hist = {}
+    
+    for a in range (0,len(list1)):
+        count=0
+        for i in range (0,len(data)):
+            if data[i]==list1[a]:
+                count+=1
+        hist[list1[a]]=count
+    for key, value in hist.iteritems():
+        print key, value
+    #print (hist)
+    #for i in range len(set1):
+        
+    
